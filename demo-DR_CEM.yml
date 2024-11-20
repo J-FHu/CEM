@@ -1,0 +1,22 @@
+task: 'DR' # SR, DN, DR
+sr: 1 # 4 for SR, 1 for DN, DR
+Modellist: ['SRResNet_DR', 'MPRNet_DR']
+batch_size_dict:
+  SRResNet_DR: 400
+  MPRNet_DR: 160
+TextImg_path: './CEM_Demo/test_images/Test1/'
+Imagelist: ['demo_2.png','demo_3.png']
+patch_path: './patch-DIV2K-8-Demo'
+prefix: 'DEMO'
+
+w: 96
+h: 152
+ROI_size: 32
+mask_block_size: 8
+coarse_num: 3
+fine_num: 50
+load_previous: 0
+tol: 0.01
+
+
+
