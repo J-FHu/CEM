@@ -1,5 +1,8 @@
 ## [Interpreting Low-level Vision Models with Causal Effect Maps](https://arxiv.org/abs/2407.19789)<br>
-
+Jinfan Hu, Jinjin Gu, Shiyao Yu, Fanghua Yu, Zheyuan Li, Zhiyuan You, Chaochao Lu, Chao Dong<br>
+<p align="center">
+  <img src="teaser_CEM.png">
+</p>
 
 ## Dependencies and Installation
 
