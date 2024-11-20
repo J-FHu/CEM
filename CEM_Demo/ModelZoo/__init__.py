@@ -1,7 +1,7 @@
 import os
 import torch
 from collections import OrderedDict
-MODEL_DIR = './LAM_Demo/ModelZoo/models/'
+MODEL_DIR = './CEM_Demo/ModelZoo/models/'
 
 
 NN_LIST = [
