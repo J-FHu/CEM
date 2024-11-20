@@ -21,7 +21,7 @@
 
    Download the model checkpoints provided in either of the following links: [Google Drive](https://drive.google.com/drive/folders/1Ns6-LQNJSBzF6ke57vS3aeLnTQSGKxa_?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1nb86GtKsNHHyHMmpASw13g?pwd=353p) 
 
-   Place the downloaded checkpoints in the directory: ./CEM_Demo/ModelZoo/models/.
+   Place the downloaded checkpoints in the directory: ./CEM_Demo/ModelZoo/models/
 
 
 ## Quick Usage
@@ -40,7 +40,7 @@
     python demo_CEM_generation.py --config demo-DN_CEM.yml
     ```
    
-2. The hyperparameters of configure.
+2. The hyperparameters of configure
       ``` YAML
       task: 'SR'                      # Task type: SR, DN, DR
       sr: 4                           # Scale factor for SR (1 for DN and DR)
@@ -74,8 +74,8 @@
    - Load model checkpoint in [_load_model_](./CEM_Demo/ModelZoo/__init__.py#L565) function
 
 Note: For Denoising (DN) or Deraining (DR) tasks:
-   - Use _get_denoise_model_ (or _get_derain_model_) instead of _get_model_.
-   - Use _load_denoise_model_ (or _load_derain_model_) instead of _load_model_.
+   - Use _get_denoise_model_ (or _get_derain_model_) instead of _get_model_
+   - Use _load_denoise_model_ (or _load_derain_model_) instead of _load_model_
 
 ---
 ## Citation
