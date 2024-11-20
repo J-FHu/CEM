@@ -165,6 +165,24 @@ class RainGenerator:
 
         return rain, img_rain
 
+
+def evaluate_sharpness(image):
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    image = image.astype(np.float32)
+    # plt.imshow(image)
+    # plt.show()
+
+    dx = np.diff(image, axis=1)
+    dy = np.diff(image, axis=0)
+
+    sharpnessx = np.sum(np.abs(dx))
+    sharpnessy = np.sum(np.abs(dy))
+
+    sharpness = np.sqrt(sharpnessx**2 + sharpnessy**2 )
+    
+    return sharpness
+
+
 def get_patch_file(patch_path):
     patch_files = os.listdir(patch_path)
     # print(random.choice(patch_files))
