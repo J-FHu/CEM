@@ -68,7 +68,7 @@
       load_previous: 1          # Load previous intervention results (1 = yes, 0 = no)
       tol: 0.01                 # Tolerance for causal effect difference
       ```
-
+3. The result will be saved in ./{task}_{prefix}_Result.html
 
 ## Load Your Models
 1. Place your model's Python file in the directory: [./CEM_Demo/ModelZoo/NN/](./CEM_Demo/ModelZoo/NN/)
