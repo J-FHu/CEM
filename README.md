@@ -87,10 +87,11 @@ Note: For Denoising (DN) or Deraining (DR) tasks:
 ## Citation
 If you find this project helpful, please consider citing:
 
-    @article{hu2024interpreting,
-      title={Interpreting Low-level Vision Models with Causal Effect Maps}, 
+    @article{hu2025interpreting,
+      title={Interpreting low-level vision models with causal effect maps},
       author={Hu, Jinfan and Gu, Jinjin and Yu, Shiyao and Yu, Fanghua and Li, Zheyuan and You, Zhiyuan and Lu, Chaochao and Dong, Chao},
-      year={2024},
-      eprint={2407.19789},
-      archivePrefix={arXiv},
+      journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+      year={2025},
+      publisher={IEEE}
     }
+
